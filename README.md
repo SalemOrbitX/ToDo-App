@@ -1,5 +1,5 @@
 # To-Do App
-https://github.com/SalemOrbitX/ToDo-App/blob/main/Screenshot_1731314071.png?raw=true
+https://github.com/SalemOrbitX/ToDo-App/blob/main/Screenshot_1731314071.png
 
 
 
