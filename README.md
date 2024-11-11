@@ -1,8 +1,5 @@
 # To-Do App
-![Screenshot_1731314071](https://github.com/user-attachments/assets/fc2cce6c-c470-4f84-8d0b-91f497902a47)
-
-
-
+<img src="![Screenshot_1731314071](https://github.com/user-attachments/assets/fc2cce6c-c470-4f84-8d0b-91f497902a47)" alt="App Screenshot" width="300"/>
 
 
 # Flutter To-Do App
