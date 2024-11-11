@@ -1,6 +1,6 @@
 # To-Do App
-<img src="https://github.com/user-attachments/assets/fc2cce6c-c470-4f84-8d0b-91f497902a47" width="300"/>
-<img src="https://github.com/SalemOrbitX/ToDo-App/blob/main/Screenshot_1731314125.png?raw=true" width="300"/>
+<img src="https://github.com/user-attachments/assets/fc2cce6c-c470-4f84-8d0b-91f497902a47" width="300"/><img src="https://github.com/SalemOrbitX/ToDo-App/blob/main/Screenshot_1731314125.png?raw=true" width="300"/>
+
 
 
 
