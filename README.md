@@ -1,3 +1,9 @@
+# To-Do App
+
+![Uploading Screenshot_1731314071.png…]()
+
+
+
 # Flutter To-Do App
 
 A simple yet functional to-do application built with Flutter and Riverpod for state management. This app allows users to create tasks, edit them, mark them as completed or starred, and delete tasks by sliding. It provides a clean and intuitive user interface for managing daily tasks.
