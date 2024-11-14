@@ -1,26 +1,16 @@
-# Flutter To-Do App
+# todo_app
 
-A simple yet functional to-do application built with Flutter and Riverpod for state management. This app allows users to create tasks, edit them, mark them as completed or starred, and delete tasks by sliding. It provides a clean and intuitive user interface for managing daily tasks.
-
-## Features
-- **Add Tasks:** Quickly add new tasks to your to-do list.
-- **Edit Tasks:** Modify task details easily.
-- **Mark as Completed:** Check off tasks as you complete them.
-- **Star Important Tasks:** Highlight important tasks by starring them.
-- **Delete Tasks:** Remove tasks by swiping them out of the list.
-
-## Technologies Used
-- **Flutter** - Framework for building cross-platform applications.
-- **Riverpod** - For efficient and reactive state management.
-- **SharedPreferences** - For persisting data across app restarts.
+A new Flutter project.
 
 ## Getting Started
 
-### Prerequisites
-- Flutter SDK
-- Dart
+This project is a starting point for a Flutter application.
 
-### Installation
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/SalemOrbitX/flutter-todo-app.git
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
