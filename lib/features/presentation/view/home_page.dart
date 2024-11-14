@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/models/todo_model.dart';
-import 'package:todo_app/providers/todo_provider.dart';
+import 'package:todo_app/features/data/models/todo_model.dart';
+import '../../providers/todo_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class HomePage extends ConsumerWidget {
   HomePage({super.key});
 
   final TextEditingController taskController = TextEditingController();
+  final TextEditingController editTaskController = TextEditingController();
 
   void _addTask(WidgetRef ref) {
     if (taskController.text.isNotEmpty) {
@@ -18,30 +19,30 @@ class HomePage extends ConsumerWidget {
   }
 
   void _editTask(int index, WidgetRef ref, BuildContext context) {
-    taskController.text = ref.read(todoProvider)[index].task;
+    editTaskController.text = ref.read(todoProvider)[index].task;
     showDialog(
       context: context,
       builder: (context) {
         return AlertDialog(
           title: const Text('Edit Task'),
           content: TextField(
-            controller: taskController,
+            controller: editTaskController,
             decoration: const InputDecoration(hintText: "Task"),
           ),
           actions: [
             TextButton(
               onPressed: () {
-                if (taskController.text.isNotEmpty) {
+                if (editTaskController.text.isNotEmpty) {
                   ref.read(todoProvider.notifier).updateTodo(
                         index,
                         Todo(
-                          task: taskController.text,
+                          task: editTaskController.text,
                           completed: ref.read(todoProvider)[index].completed,
                           starred: ref.read(todoProvider)[index].starred,
                         ),
                       );
                   Navigator.of(context).pop();
-                  taskController.clear();
+                  editTaskController.clear();
                 }
               },
               child: const Text('Save'),
